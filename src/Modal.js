@@ -1,9 +1,9 @@
 import React from 'react';
-import './Modal.css';
+import './modal.css';
 
 export default function Modal(props) {
   return (
-    <section className="modal">
+    <section id="#what" className="modal">
       <div className="modal__content">
         <h3 className="modal__title">{props.title}</h3>
         <p>This is a Hot or Cold Number Guessing Game. The game goes like this:</p>

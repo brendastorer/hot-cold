@@ -1,17 +1,17 @@
 import React from 'react';
-import './Nav.css';
+import './nav.css';
 
 export default function Nav(props) {
-  return (
+  return(
     <nav className="app-nav">
       <ul>
         <li>
-          <a href="#">What?</a>
+          <a href="#what" onClick={event => event.preventDefault}>What?</a>
         </li>
         <li>
-          <a href="#">+ New Game</a>
+          <a href="#restart" onClick={() => props.onRestartGame()}>+ New Game</a>
         </li>
       </ul>
     </nav>
-  )
+  );
 }
