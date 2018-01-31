@@ -54,8 +54,6 @@ export default class Game extends React.Component {
     });
   }
 
-  // modal
-
   render() {
     const guessesList = this.state.guesses.map((guess, index) =>
       <li key={index}>
