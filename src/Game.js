@@ -1,7 +1,7 @@
 import React from 'react';
-import './game.css';
-import Header from './header';
-import GameForm from './game-form';
+import './Game.css';
+import Header from './Header';
+import GameForm from './GameForm';
 
 export default class Game extends React.Component {
   constructor(props) {
